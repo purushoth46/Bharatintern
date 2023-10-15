@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #e1f73cdc;
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right ,rgba(139, 248, 195, 0.5),rgba(172, 157, 234, 0.7)),url(./../Images/computer-2982270_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color:#fff;
+    font-weight: 900;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.container{
+    height: 50vh;
+    background-color:rgba(92, 99, 100, 0.5);
+    margin: 90px;
+    padding: 5%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#calc input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+}
+#calc select{
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    color: #ffff;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: rgb(41, 189, 222);
+    outline: none;
+}
+#btn{
+    padding: 10px;
+    border: none;
+    outline: non;
+    border-radius: 10px;
+    color:#ffff;
+    background-color: darkgreen;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #fff000;
+    transform: scale(1.2);
+
+}
+.result{
+   color: #ffff;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   font-size: 30px;
+}
